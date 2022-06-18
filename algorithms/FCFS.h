@@ -113,7 +113,6 @@ void FCFS(Process *p, int len)
 
 	fcfs_calculate_time(p, len);
 
-    // calculando tempos de resposta, retorno e de espera
     for (i = 0; i < len; i++)
     {
         total_waiting_time += p[i].waiting_time;
