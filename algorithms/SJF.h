@@ -154,7 +154,7 @@ void SJF(Process *p, int len){
         total_turnaround_time += p[i].turnaround_time;
         total_response_time += p[i].response_time;
     }
-
+		printf("SJF implementado pelo aluno\n");
 
     sjf_print_gantt_chart(p, len);
     printf("\n\tAverage Waiting Time     : %-2.2lf\n", (double)total_waiting_time / (double)len);
